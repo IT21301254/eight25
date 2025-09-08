@@ -39,7 +39,7 @@ describe('Eight25 Website Tests', () => {
     cy.get('textarea[name="your-message"]').should('have.value', 'This is a test message')
   })
 
-  // Test 4: Responsive Check (Bonus)
+  // Test 4: Responsive Check
   it('should verify mobile menu is visible in mobile viewport', () => {
     // Set mobile viewport
     cy.viewport(375, 667)
